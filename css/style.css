@@ -292,7 +292,7 @@ header {
 main {
   background-color: #F1F2F4;
   width: 100%;
-  height: calc(100vh - 8rem -20rem);
+  height: calc(100vh - 18rem -20rem);
 }
 
 .slider {
