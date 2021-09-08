@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 html {
@@ -15,16 +15,16 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  padding: 0rem 3rem;
+  padding: 0rem 8rem;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   color: #777;
 }
 
 header {
   background-color: #ffff;
   color: #333;
-  height: 8rem;
+  height: 18rem;
 }
 
 .main__header--grab--one {
@@ -46,7 +46,7 @@ header {
   margin-top: 5px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: 2.5rem;
+  height: 6.5rem;
   z-index: 100;
 }
 
@@ -58,7 +58,7 @@ header {
 }
 
 .main__header--grab--one .top .img img {
-  width: 50px;
+  width: 130px;
 }
 
 .main__header--grab--one .top .form {
@@ -73,12 +73,12 @@ header {
 
 .main__header--grab--one .top .form input {
   width: 90%;
-  padding: 0rem 2px;
+  padding: 0rem 1rem;
   border-bottom: 1px solid transparent;
   border: none;
   outline: none;
-  height: 16.7px;
-  font-size: 7px;
+  height: 38.7px;
+  font-size: 1.5rem;
 }
 
 .main__header--grab--one .top .form input:focus {
@@ -91,19 +91,19 @@ header {
 }
 
 .main__header--grab--one .top .form input::-webkit-input-placeholder {
-  font-size: 7px;
+  font-size: 1.5rem;
 }
 
 .main__header--grab--one .top .form input:-ms-input-placeholder {
-  font-size: 7px;
+  font-size: 1.5rem;
 }
 
 .main__header--grab--one .top .form input::-ms-input-placeholder {
-  font-size: 7px;
+  font-size: 1.5rem;
 }
 
 .main__header--grab--one .top .form input::placeholder {
-  font-size: 7px;
+  font-size: 1.5rem;
 }
 
 .main__header--grab--one .top .form button {
@@ -111,7 +111,7 @@ header {
   width: 10%;
   position: absolute;
   left: 90%;
-  height: 19.2px;
+  height: 39.2px;
   background-color: #1D97D3;
   color: white;
   cursor: pointer;
@@ -133,17 +133,17 @@ header {
 }
 
 .main__header--grab--one .top .cart i {
-  font-size: 15px;
+  font-size: 37px;
   cursor: pointer;
   color: #333;
 }
 
 .main__header--grab--one .top .cart a {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   text-decoration: none;
-  padding: 2px 6px;
+  padding: 9px 23px;
   border: .5px solid #777;
-  font-size: 8px;
+  font-size: 1.5rem;
   border-radius: 3px;
   color: inherit;
   background-color: transparent;
@@ -157,14 +157,14 @@ header {
 }
 
 .main__header--grab--one .top .cart .sign-in {
-  margin-top: 5px;
+  margin-top: 22px;
 }
 
 .middle {
   margin-top: 5px;
   width: 100%;
   border-bottom: .5px solid #00bcd4;
-  height: 2.5rem;
+  height: 5.5rem;
 }
 
 .middle .nav {
@@ -191,8 +191,8 @@ header {
 
 .middle .another a {
   text-decoration: none;
-  padding: 3px 5px;
-  font-size: 8px;
+  padding: 2px 13px;
+  font-size: 19px;
   color: inherit;
   position: relative;
   -webkit-transition: all .5s;
@@ -221,7 +221,7 @@ header {
   top: 100%;
   left: 0;
   width: 0;
-  height: 1px;
+  height: 3px;
   background-color: #00bcd4;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
@@ -235,7 +235,7 @@ header {
   top: 100%;
   right: 0;
   width: 0;
-  height: 1px;
+  height: 3px;
   background-color: #f0f;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
@@ -246,7 +246,7 @@ header {
 .bottom {
   margin-top: 0px;
   width: 100%;
-  height: 3rem;
+  height: 5.5rem;
 }
 
 .bottom .nav {
@@ -268,12 +268,12 @@ header {
 
 .bottom .other li {
   list-style: none;
-  padding: 5px 8.3px;
+  padding: 5px 15.3px;
 }
 
 .bottom .other a {
   text-decoration: none;
-  font-size: 6.4px;
+  font-size: 18.4px;
   font-weight: 300;
   color: inherit;
   position: relative;
@@ -297,7 +297,7 @@ main {
 
 .slider {
   margin-top: 1rem;
-  height: 10rem;
+  height: 26rem;
   cursor: pointer;
 }
 
@@ -310,7 +310,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 5px;
-  height: 4rem;
+  height: 13rem;
 }
 
 .second__slider .imgone {
@@ -336,14 +336,14 @@ main {
 
 .sold__Section {
   width: 100%;
-  height: 20rem;
+  height: 45rem;
   margin-top: 1rem;
   -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .sold__Section h1 {
-  font-size: 10px;
+  font-size: 2.5rem;
   font-weight: 300;
   color: #333333;
   padding-left: 5px;
@@ -362,7 +362,7 @@ main {
 
 .sold__Section--grab--one {
   width: 15%;
-  height: 14rem;
+  height: 34rem;
   position: relative;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -392,13 +392,14 @@ main {
 }
 
 .sold__Section--grab--one .top .valo {
-  font-size: 8px;
+  font-size: 2rem;
   color: #2d3436;
   padding-top: 4px;
 }
 
 .sold__Section--grab--one .top .price {
   color: black;
+  font-size: 1.5rem;
 }
 
 .sold__Section--grab--one .hidden {
@@ -423,30 +424,30 @@ main {
 
 .sold__Section--grab--one .hidden .alada {
   text-decoration: none;
-  font-size: 8px;
+  font-size: 1.5rem;
   padding: 3px 2px;
   color: white;
   border: 1px solid #f39203;
   background-color: #f39203;
   border-radius: 3px;
-  -webkit-transform: translate(2px, -50px);
-          transform: translate(2px, -50px);
+  -webkit-transform: translate(2px, -202px);
+          transform: translate(2px, -202px);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .sold__Section--grab--one .hidden .Button {
-  -webkit-transform: translate(0px, 46px);
-          transform: translate(0px, 46px);
+  -webkit-transform: translate(0px, 115px);
+          transform: translate(0px, 115px);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .sold__Section--grab--one .hidden .Button button {
   width: 100%;
-  height: 2rem;
+  height: 4rem;
   padding: 0px 2px;
-  font-size: 7px;
+  font-size: 2rem;
   border-radius: 2px;
   border: none;
   cursor: pointer;
@@ -470,8 +471,8 @@ main {
   opacity: 0.6;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
-  -webkit-transform: translate(73px, -9px);
-          transform: translate(73px, -9px);
+  -webkit-transform: translate(200px, -9px);
+          transform: translate(200px, -9px);
 }
 
 .sold__Section--grab--one:hover .alada {
@@ -486,7 +487,7 @@ main {
 
 .sold__Section--grab--tow {
   width: 15%;
-  height: 14rem;
+  height: 34rem;
   position: relative;
   overflow: hidden;
   -webkit-transition: all .5s;
@@ -516,13 +517,14 @@ main {
 }
 
 .sold__Section--grab--tow .top .valo {
-  font-size: 8px;
+  font-size: 2rem;
   color: #2d3436;
   padding-top: 4px;
 }
 
 .sold__Section--grab--tow .top .price {
   color: black;
+  font-size: 1.5rem;
 }
 
 .sold__Section--grab--tow .hidden--tow {
@@ -547,30 +549,30 @@ main {
 
 .sold__Section--grab--tow .hidden--tow .alada {
   text-decoration: none;
-  font-size: 8px;
+  font-size: 1.5rem;
   padding: 3px 2px;
   color: white;
   border: 1px solid #f39203;
   background-color: #f39203;
   border-radius: 3px;
-  -webkit-transform: translate(2px, -50px);
-          transform: translate(2px, -50px);
+  -webkit-transform: translate(2px, -204px);
+          transform: translate(2px, -204px);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .sold__Section--grab--tow .hidden--tow .Button {
-  -webkit-transform: translate(0px, 46px);
-          transform: translate(0px, 46px);
+  -webkit-transform: translate(0px, 115px);
+          transform: translate(0px, 115px);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .sold__Section--grab--tow .hidden--tow .Button button {
   width: 100%;
-  height: 2rem;
+  height: 4rem;
   padding: 0px 2px;
-  font-size: 7px;
+  font-size: 2rem;
   border-radius: 2px;
   border: none;
   cursor: pointer;
@@ -594,8 +596,8 @@ main {
   opacity: 0.6;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
-  -webkit-transform: translate(73px, -9px);
-          transform: translate(73px, -9px);
+  -webkit-transform: translate(200px, -9px);
+          transform: translate(200px, -9px);
 }
 
 .sold__Section--grab--tow:hover .alada {
@@ -610,7 +612,7 @@ main {
 
 .sold__Section--grab--three {
   width: 15%;
-  height: 14rem;
+  height: 34rem;
   position: relative;
   overflow: hidden;
   -webkit-transition: all .5s;
@@ -640,13 +642,14 @@ main {
 }
 
 .sold__Section--grab--three .top .valo {
-  font-size: 8px;
+  font-size: 2rem;
   color: #2d3436;
   padding-top: 4px;
 }
 
 .sold__Section--grab--three .top .price {
   color: black;
+  font-size: 1.5rem;
 }
 
 .sold__Section--grab--three .hidden {
@@ -671,30 +674,30 @@ main {
 
 .sold__Section--grab--three .hidden .alada {
   text-decoration: none;
-  font-size: 8px;
+  font-size: 1.5rem;
   padding: 3px 2px;
   color: white;
   border: 1px solid #f39203;
   background-color: #f39203;
   border-radius: 3px;
-  -webkit-transform: translate(2px, -50px);
-          transform: translate(2px, -50px);
+  -webkit-transform: translate(2px, -204px);
+          transform: translate(2px, -204px);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .sold__Section--grab--three .hidden .Button {
-  -webkit-transform: translate(0px, 46px);
-          transform: translate(0px, 46px);
+  -webkit-transform: translate(0px, 115px);
+          transform: translate(0px, 115px);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .sold__Section--grab--three .hidden .Button button {
   width: 100%;
-  height: 2rem;
+  height: 4rem;
   padding: 0px 2px;
-  font-size: 7px;
+  font-size: 2rem;
   border-radius: 2px;
   border: none;
   cursor: pointer;
@@ -718,8 +721,8 @@ main {
   opacity: 0.6;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
-  -webkit-transform: translate(73px, -9px);
-          transform: translate(73px, -9px);
+  -webkit-transform: translate(200px, -9px);
+          transform: translate(200px, -9px);
 }
 
 .sold__Section--grab--three:hover .alada {
@@ -734,7 +737,7 @@ main {
 
 .sold__Section--grab--four {
   width: 15%;
-  height: 14rem;
+  height: 34rem;
   position: relative;
   overflow: hidden;
   -webkit-transition: all .5s;
@@ -764,13 +767,14 @@ main {
 }
 
 .sold__Section--grab--four .top .valo {
-  font-size: 8px;
+  font-size: 2rem;
   color: #2d3436;
   padding-top: 4px;
 }
 
 .sold__Section--grab--four .top .price {
   color: black;
+  font-size: 1.5rem;
 }
 
 .sold__Section--grab--four .hidden {
@@ -795,30 +799,30 @@ main {
 
 .sold__Section--grab--four .hidden .alada {
   text-decoration: none;
-  font-size: 8px;
+  font-size: 1.5rem;
   padding: 3px 2px;
   color: white;
   border: 1px solid #f39203;
   background-color: #f39203;
   border-radius: 3px;
-  -webkit-transform: translate(2px, -50px);
-          transform: translate(2px, -50px);
+  -webkit-transform: translate(2px, -204px);
+          transform: translate(2px, -204px);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .sold__Section--grab--four .hidden .Button {
-  -webkit-transform: translate(0px, 46px);
-          transform: translate(0px, 46px);
+  -webkit-transform: translate(0px, 115px);
+          transform: translate(0px, 115px);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .sold__Section--grab--four .hidden .Button button {
   width: 100%;
-  height: 2rem;
+  height: 4rem;
   padding: 0px 2px;
-  font-size: 7px;
+  font-size: 2rem;
   border-radius: 2px;
   border: none;
   cursor: pointer;
@@ -842,8 +846,8 @@ main {
   opacity: 0.6;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
-  -webkit-transform: translate(73px, -9px);
-          transform: translate(73px, -9px);
+  -webkit-transform: translate(200px, -9px);
+          transform: translate(200px, -9px);
 }
 
 .sold__Section--grab--four:hover .alada {
@@ -858,7 +862,7 @@ main {
 
 .sold__Section--grab--five {
   width: 15%;
-  height: 14rem;
+  height: 34rem;
   overflow: hidden;
   position: relative;
   -webkit-transition: all .5s;
@@ -888,13 +892,14 @@ main {
 }
 
 .sold__Section--grab--five .top .valo {
-  font-size: 8px;
+  font-size: 2rem;
   color: #2d3436;
   padding-top: 4px;
 }
 
 .sold__Section--grab--five .top .price {
   color: black;
+  font-size: 1.5rem;
 }
 
 .sold__Section--grab--five .hidden {
@@ -919,30 +924,30 @@ main {
 
 .sold__Section--grab--five .hidden .alada {
   text-decoration: none;
-  font-size: 8px;
+  font-size: 1.5rem;
   padding: 3px 2px;
   color: white;
   border: 1px solid #f39203;
   background-color: #f39203;
   border-radius: 3px;
-  -webkit-transform: translate(2px, -50px);
-          transform: translate(2px, -50px);
+  -webkit-transform: translate(2px, -115px);
+          transform: translate(2px, -115px);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .sold__Section--grab--five .hidden .Button {
-  -webkit-transform: translate(0px, 46px);
-          transform: translate(0px, 46px);
+  -webkit-transform: translate(0px, 204px);
+          transform: translate(0px, 204px);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .sold__Section--grab--five .hidden .Button button {
   width: 100%;
-  height: 2rem;
+  height: 4rem;
   padding: 0px 2px;
-  font-size: 7px;
+  font-size: 2rem;
   border-radius: 2px;
   border: none;
   cursor: pointer;
@@ -966,8 +971,8 @@ main {
   opacity: 0.6;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
-  -webkit-transform: translate(73px, -9px);
-          transform: translate(73px, -9px);
+  -webkit-transform: translate(200px, -9px);
+          transform: translate(200px, -9px);
 }
 
 .sold__Section--grab--five:hover .alada {
@@ -982,7 +987,7 @@ main {
 
 .sold__Section--grab--six {
   width: 15%;
-  height: 14rem;
+  height: 34rem;
   position: relative;
   overflow: hidden;
   -webkit-transition: all .5s;
@@ -1012,13 +1017,14 @@ main {
 }
 
 .sold__Section--grab--six .top .valo {
-  font-size: 8px;
+  font-size: 2rem;
   color: #2d3436;
   padding-top: 4px;
 }
 
 .sold__Section--grab--six .top .price {
   color: black;
+  font-size: 1.5rem;
 }
 
 .sold__Section--grab--six .hidden {
@@ -1043,30 +1049,30 @@ main {
 
 .sold__Section--grab--six .hidden .alada {
   text-decoration: none;
-  font-size: 8px;
+  font-size: 1.5rem;
   padding: 3px 2px;
   color: white;
   border: 1px solid #f39203;
   background-color: #f39203;
   border-radius: 3px;
-  -webkit-transform: translate(2px, -50px);
-          transform: translate(2px, -50px);
+  -webkit-transform: translate(0px, -115px);
+          transform: translate(0px, -115px);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .sold__Section--grab--six .hidden .Button {
-  -webkit-transform: translate(0px, 46px);
-          transform: translate(0px, 46px);
+  -webkit-transform: translate(0px, 204px);
+          transform: translate(0px, 204px);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .sold__Section--grab--six .hidden .Button button {
   width: 100%;
-  height: 2rem;
+  height: 4rem;
   padding: 0px 2px;
-  font-size: 7px;
+  font-size: 2rem;
   border-radius: 2px;
   border: none;
   cursor: pointer;
@@ -1090,8 +1096,8 @@ main {
   opacity: 0.6;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
-  -webkit-transform: translate(73px, -9px);
-          transform: translate(73px, -9px);
+  -webkit-transform: translate(200px, -9px);
+          transform: translate(200px, -9px);
 }
 
 .sold__Section--grab--six:hover .alada {
