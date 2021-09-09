@@ -1643,6 +1643,1161 @@ main {
   border-radius: 3px;
 }
 
+.sold__Section3 {
+  width: 100%;
+  height: 42rem;
+  margin-top: 1rem;
+  -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sold__Section3 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sold__Section3 .flex button {
+  padding: 3px 5px;
+  width: 120px;
+  margin-top: 5px;
+  border: 1px solid #0397d3;
+  color: #0397d3;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  margin-right: 1rem;
+}
+
+.sold__Section3 .flex button:hover {
+  background-color: #0397d3;
+  color: white;
+}
+
+.sold__Section3 .flex h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #333333;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.sold__Section3--grab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.sold__Section3--grab--one {
+  width: 15%;
+  height: 34rem;
+  position: relative;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  overflow: hidden;
+}
+
+.sold__Section3--grab--one .img {
+  position: absolute;
+  top: 6px;
+  left: 28%;
+  height: 29px;
+  width: 60px;
+  background-image: url(https://www.rokomari.com/static/200/dist/desktop/images/serial-badge-2.png);
+}
+
+.sold__Section3--grab--one .img p {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.sold__Section3--grab--one:hover {
+  -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sold__Section3--grab--one .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1rem;
+}
+
+.sold__Section3--grab--one .top .valo {
+  font-size: 2rem;
+  color: #2d3436;
+  padding-top: 4px;
+}
+
+.sold__Section3--grab--one .top .price {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.sold__Section3--grab--one .hidden {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sold__Section3--grab--one .hidden .alada {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 3px 2px;
+  color: white;
+  border: 1px solid #f39203;
+  background-color: #f39203;
+  border-radius: 3px;
+  -webkit-transform: translate(2px, -202px);
+          transform: translate(2px, -202px);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 4;
+}
+
+.sold__Section3--grab--one .hidden .Button {
+  -webkit-transform: translate(0px, 115px);
+          transform: translate(0px, 115px);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 4;
+}
+
+.sold__Section3--grab--one .hidden .Button button {
+  width: 100%;
+  height: 4rem;
+  padding: 0px 2px;
+  font-size: 2rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: #1D97D3;
+  color: white;
+}
+
+.sold__Section3--grab--one:hover::before {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.sold__Section3--grab--one::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 100%;
+  background-color: #2d3436;
+  opacity: 0.9;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  -webkit-transform: translate(200px, -9px);
+          transform: translate(200px, -9px);
+  z-index: 2;
+}
+
+.sold__Section3--grab--one:hover .alada {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.sold__Section3--grab--one:hover .Button {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.sold__Section3--grab--tow {
+  width: 15%;
+  height: 34rem;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.sold__Section3--grab--tow .img {
+  position: absolute;
+  top: 6px;
+  left: 28%;
+  height: 29px;
+  width: 60px;
+  background-image: url(https://www.rokomari.com/static/200/dist/desktop/images/serial-badge-2.png);
+}
+
+.sold__Section3--grab--tow .img p {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.sold__Section3--grab--tow:hover {
+  -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sold__Section3--grab--tow .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1rem;
+}
+
+.sold__Section3--grab--tow .top .valo {
+  font-size: 2rem;
+  color: #2d3436;
+  padding-top: 4px;
+}
+
+.sold__Section3--grab--tow .top .price {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.sold__Section3--grab--tow .hidden--tow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sold__Section3--grab--tow .hidden--tow .alada {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 3px 2px;
+  color: white;
+  border: 1px solid #f39203;
+  background-color: #f39203;
+  border-radius: 3px;
+  -webkit-transform: translate(2px, -204px);
+          transform: translate(2px, -204px);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 3;
+}
+
+.sold__Section3--grab--tow .hidden--tow .Button {
+  -webkit-transform: translate(0px, 115px);
+          transform: translate(0px, 115px);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 3;
+}
+
+.sold__Section3--grab--tow .hidden--tow .Button button {
+  width: 100%;
+  height: 4rem;
+  padding: 0px 2px;
+  font-size: 2rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: #1D97D3;
+  color: white;
+}
+
+.sold__Section3--grab--tow:hover::before {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.sold__Section3--grab--tow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 100%;
+  background-color: #2d3436;
+  opacity: 0.9;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  -webkit-transform: translate(200px, -9px);
+          transform: translate(200px, -9px);
+  z-index: 2;
+}
+
+.sold__Section3--grab--tow:hover .alada {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.sold__Section3--grab--tow:hover .Button {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.sold__Section3--grab--three {
+  width: 15%;
+  height: 34rem;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.sold__Section3--grab--three .img {
+  position: absolute;
+  top: 6px;
+  left: 28%;
+  height: 29px;
+  width: 60px;
+  background-image: url(https://www.rokomari.com/static/200/dist/desktop/images/serial-badge-2.png);
+}
+
+.sold__Section3--grab--three .img p {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.sold__Section3--grab--three:hover {
+  -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sold__Section3--grab--three .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1rem;
+}
+
+.sold__Section3--grab--three .top .valo {
+  font-size: 2rem;
+  color: #2d3436;
+  padding-top: 4px;
+}
+
+.sold__Section3--grab--three .top .price {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.sold__Section3--grab--three .hidden {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sold__Section3--grab--three .hidden .alada {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 3px 2px;
+  color: white;
+  border: 1px solid #f39203;
+  background-color: #f39203;
+  border-radius: 3px;
+  -webkit-transform: translate(2px, -204px);
+          transform: translate(2px, -204px);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 3;
+}
+
+.sold__Section3--grab--three .hidden .Button {
+  -webkit-transform: translate(0px, 115px);
+          transform: translate(0px, 115px);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 3;
+}
+
+.sold__Section3--grab--three .hidden .Button button {
+  width: 100%;
+  height: 4rem;
+  padding: 0px 2px;
+  font-size: 2rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: #1D97D3;
+  color: white;
+}
+
+.sold__Section3--grab--three:hover::before {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.sold__Section3--grab--three::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 100%;
+  background-color: #2d3436;
+  opacity: 0.9;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  -webkit-transform: translate(200px, -9px);
+          transform: translate(200px, -9px);
+  z-index: 2;
+}
+
+.sold__Section3--grab--three:hover .alada {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.sold__Section3--grab--three:hover .Button {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.sold__Section3--grab--four {
+  width: 15%;
+  height: 34rem;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.sold__Section3--grab--four .img {
+  position: absolute;
+  top: 6px;
+  left: 28%;
+  height: 29px;
+  width: 60px;
+  background-image: url(https://www.rokomari.com/static/200/dist/desktop/images/serial-badge-2.png);
+}
+
+.sold__Section3--grab--four .img p {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.sold__Section3--grab--four:hover {
+  -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sold__Section3--grab--four .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1rem;
+}
+
+.sold__Section3--grab--four .top .valo {
+  font-size: 2rem;
+  color: #2d3436;
+  padding-top: 4px;
+}
+
+.sold__Section3--grab--four .top .price {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.sold__Section3--grab--four .hidden {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sold__Section3--grab--four .hidden .alada {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 3px 2px;
+  color: white;
+  border: 1px solid #f39203;
+  background-color: #f39203;
+  border-radius: 3px;
+  -webkit-transform: translate(2px, -204px);
+          transform: translate(2px, -204px);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 3;
+}
+
+.sold__Section3--grab--four .hidden .Button {
+  -webkit-transform: translate(0px, 115px);
+          transform: translate(0px, 115px);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 3;
+}
+
+.sold__Section3--grab--four .hidden .Button button {
+  width: 100%;
+  height: 4rem;
+  padding: 0px 2px;
+  font-size: 2rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: #1D97D3;
+  color: white;
+}
+
+.sold__Section3--grab--four:hover::before {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.sold__Section3--grab--four::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 100%;
+  background-color: #2d3436;
+  opacity: 0.9;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  -webkit-transform: translate(200px, -9px);
+          transform: translate(200px, -9px);
+  z-index: 2;
+}
+
+.sold__Section3--grab--four:hover .alada {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.sold__Section3--grab--four:hover .Button {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.sold__Section3--grab--five {
+  width: 15%;
+  height: 34rem;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.sold__Section3--grab--five .img {
+  position: absolute;
+  top: 6px;
+  left: 28%;
+  height: 29px;
+  width: 60px;
+  background-image: url(https://www.rokomari.com/static/200/dist/desktop/images/serial-badge-2.png);
+}
+
+.sold__Section3--grab--five .img p {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.sold__Section3--grab--five:hover {
+  -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sold__Section3--grab--five .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1rem;
+}
+
+.sold__Section3--grab--five .top .valo {
+  font-size: 2rem;
+  color: #2d3436;
+  padding-top: 4px;
+}
+
+.sold__Section3--grab--five .top .price {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.sold__Section3--grab--five .hidden {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sold__Section3--grab--five .hidden .alada {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 3px 2px;
+  color: white;
+  border: 1px solid #f39203;
+  background-color: #f39203;
+  border-radius: 3px;
+  -webkit-transform: translate(2px, -115px);
+          transform: translate(2px, -115px);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 3;
+}
+
+.sold__Section3--grab--five .hidden .Button {
+  -webkit-transform: translate(0px, 204px);
+          transform: translate(0px, 204px);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 3;
+}
+
+.sold__Section3--grab--five .hidden .Button button {
+  width: 100%;
+  height: 4rem;
+  padding: 0px 2px;
+  font-size: 2rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: #1D97D3;
+  color: white;
+}
+
+.sold__Section3--grab--five:hover::before {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.sold__Section3--grab--five::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 100%;
+  background-color: #2d3436;
+  opacity: 0.9;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  -webkit-transform: translate(200px, -9px);
+          transform: translate(200px, -9px);
+  z-index: 2;
+}
+
+.sold__Section3--grab--five:hover .alada {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.sold__Section3--grab--five:hover .Button {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.sold__Section3--grab--six {
+  width: 15%;
+  height: 34rem;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.sold__Section3--grab--six .img {
+  position: absolute;
+  top: 6px;
+  left: 28%;
+  height: 29px;
+  width: 60px;
+  background-image: url(https://www.rokomari.com/static/200/dist/desktop/images/serial-badge-2.png);
+}
+
+.sold__Section3--grab--six .img p {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.sold__Section3--grab--six:hover {
+  -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sold__Section3--grab--six .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1rem;
+}
+
+.sold__Section3--grab--six .top .valo {
+  font-size: 2rem;
+  color: #2d3436;
+  padding-top: 4px;
+}
+
+.sold__Section3--grab--six .top .price {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.sold__Section3--grab--six .hidden {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sold__Section3--grab--six .hidden .alada {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 3px 2px;
+  color: white;
+  border: 1px solid #f39203;
+  background-color: #f39203;
+  border-radius: 3px;
+  -webkit-transform: translate(0px, -115px);
+          transform: translate(0px, -115px);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 3;
+}
+
+.sold__Section3--grab--six .hidden .Button {
+  -webkit-transform: translate(0px, 204px);
+          transform: translate(0px, 204px);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 3;
+}
+
+.sold__Section3--grab--six .hidden .Button button {
+  width: 100%;
+  height: 4rem;
+  padding: 0px 2px;
+  font-size: 2rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: #1D97D3;
+  color: white;
+}
+
+.sold__Section3--grab--six:hover::before {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.sold__Section3--grab--six::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 100%;
+  background-color: #2d3436;
+  opacity: 0.9;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  -webkit-transform: translate(200px, -9px);
+          transform: translate(200px, -9px);
+  z-index: 2;
+}
+
+.sold__Section3--grab--six:hover .alada {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.sold__Section3--grab--six:hover .Button {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.Authors {
+  margin-top: 2rem;
+  width: 100%;
+  height: 30rem;
+}
+
+.Authors__grab .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Authors__grab .content h1 {
+  font-size: 2.5rem;
+  color: #2d3436;
+  padding-left: 2rem;
+}
+
+.Authors__grab .content button {
+  padding: 3px 2px;
+  width: 120px;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  height: 4rem;
+  border-radius: 3px;
+  border: 2px solid #0397d3;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #71cbf0;
+}
+
+.Authors__grab .content button:hover {
+  background-color: #0397d3;
+  color: white;
+}
+
+.Authors__grab .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3rem;
+  padding: 0rem 3rem;
+}
+
+.Authors__grab .person .one img {
+  display: block;
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid #CDCDCD;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+.Authors__grab .person .one img:hover {
+  border: 2px solid #0397d3;
+}
+
+.Authors__grab .person .one h1 {
+  font-size: 1.5rem;
+  color: #333333;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.Authors__grab .person .one:hover {
+  color: #0397d3;
+}
+
+.Authors__grab .person .tow img {
+  display: block;
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid #CDCDCD;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+.Authors__grab .person .tow img:hover {
+  border: 2px solid #0397d3;
+}
+
+.Authors__grab .person .tow h1 {
+  font-size: 1.5rem;
+  color: #333333;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.Authors__grab .person .three img {
+  display: block;
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid #CDCDCD;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+.Authors__grab .person .three img:hover {
+  border: 2px solid #0397d3;
+}
+
+.Authors__grab .person .three h1 {
+  font-size: 1.5rem;
+  color: #333333;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.Authors__grab .person .four img {
+  display: block;
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid #CDCDCD;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+.Authors__grab .person .four img:hover {
+  border: 2px solid #0397d3;
+}
+
+.Authors__grab .person .four h1 {
+  font-size: 1.5rem;
+  color: #333333;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.Authors__grab .person .five img {
+  display: block;
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid #CDCDCD;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+.Authors__grab .person .five img:hover {
+  border: 2px solid #0397d3;
+}
+
+.Authors__grab .person .five h1 {
+  font-size: 1.5rem;
+  color: #333333;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.Subscribe {
+  width: 100%;
+  height: 20rem;
+}
+
+.Subscribe__grab h1 {
+  text-align: center;
+  color: #333333;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+.Subscribe__grab span {
+  color: #33c24d;
+  font-size: 3.2rem;
+  padding-left: 1rem;
+}
+
+.Subscribe__grab .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+.Subscribe__grab .content input {
+  width: 47rem;
+  height: 4.5rem;
+  padding: 0rem 2rem;
+  padding: 3px;
+  border: 1px solid #777;
+}
+
+.Subscribe__grab .content input:focus {
+  outline: none;
+  border: 2px solid #3ed303;
+}
+
+.Subscribe__grab .content .Male {
+  width: 80px;
+  height: 40px;
+  margin-left: 2rem;
+  color: #71cbf0;
+  border: 1px solid #0397d3;
+  font-size: 1.5rem;
+  border-radius: 3px;
+}
+
+.Subscribe__grab .content .Male:hover {
+  background-color: #0397d3;
+  color: white;
+}
+
+.Subscribe__grab .content .Female {
+  width: 120px;
+  height: 40px;
+  margin-left: 2rem;
+  color: tomato;
+  border: 1px solid tomato;
+  font-size: 1.5rem;
+  border-radius: 3px;
+}
+
+.Subscribe__grab .content .Female:hover {
+  background-color: tomato;
+  color: white;
+}
+
 .popup {
   width: 100%;
   height: 100vh;
