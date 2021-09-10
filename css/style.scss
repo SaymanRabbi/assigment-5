@@ -2334,7 +2334,7 @@ z-index: 3;
 }
 .Subscribe{
     width: 100%;
-    height: 20rem;
+    height: 17rem;
     
     &__grab{
         
@@ -2397,6 +2397,98 @@ z-index: 3;
         }
     }
 }
+// -------rokomari-features------
+.rokomari-features{
+    width: 100%;
+    height: 20rem;
+
+    &__grab{
+        display: flex;
+        justify-content: space-between;
+        & .one{
+            flex-basis: 30%;
+            display: flex;
+            align-items: center;
+            & .img{
+                & img{
+                     height: 34px;
+                }
+            }
+            & .content{
+                & p{
+                    font-size: 1.5rem;
+                    padding-left: 10px;
+                    color: #2d3436;
+                    & span{
+                        display: block;
+                    }
+                }
+            }
+        }
+        & .tow{
+            flex-basis: 20%;
+            display: flex;
+            align-items: center;
+            & .img{
+                & img{
+                     height: 34px;
+                }
+            }
+            & .content{
+                & p{
+                    font-size: 1.5rem;
+                    padding-left: 10px;
+                    color: #2d3436;
+                    & span{
+                        display: block;
+                    }
+                }
+            }
+        }
+        & .three{
+            flex-basis: 20%;
+            display: flex;
+            align-items: center;
+            & .img{
+                & img{
+                     height: 34px;
+                }
+            }
+            & .content{
+                & p{
+                    font-size: 1.5rem;
+                    padding-left: 10px;
+                    color: #2d3436;
+                    & span{
+                        display: block;
+                    }
+                }
+            }
+        }
+        & .four{
+            flex-basis: 15%;
+            display: flex;
+            align-items: center;
+            
+            & .img{
+                & img{
+                     height: 34px;
+                }
+            }
+        }
+        & .content{
+            & p{
+                font-size: 1.5rem;
+                padding-left: 10px;
+                color: #2d3436;
+                & span{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+// ----end-------
 // ------popup-------
 .popup{
     width: 100%;
