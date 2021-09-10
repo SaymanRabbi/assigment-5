@@ -681,11 +681,6 @@ header {
   color: white;
 }
 
-.sold__Section--grab--one:hover {
-  -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
 .sold__Section--grab--one .top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -704,9 +699,11 @@ header {
 }
 
 .sold__Section--grab--one .top .valo {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #2d3436;
-  padding-top: 4px;
+  padding-top: 22px;
+  font-weight: 300;
+  text-align: center;
 }
 
 .sold__Section--grab--one .top .price {
@@ -781,8 +778,8 @@ header {
   left: 0;
   width: 110%;
   height: 100%;
-  background-color: #2d3436;
-  opacity: 0.9;
+  background-color: white;
+  opacity: 0.85;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
   -webkit-transform: translate(200px, -9px);
@@ -809,11 +806,6 @@ header {
   transition: all .5s;
 }
 
-.sold__Section--grab--tow:hover {
-  -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
 .sold__Section--grab--tow .top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -832,9 +824,11 @@ header {
 }
 
 .sold__Section--grab--tow .top .valo {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #2d3436;
-  padding-top: 4px;
+  padding-top: 22px;
+  font-weight: 300;
+  text-align: center;
 }
 
 .sold__Section--grab--tow .top .price {
@@ -907,8 +901,8 @@ header {
   left: 0;
   width: 110%;
   height: 100%;
-  background-color: #2d3436;
-  opacity: 0.9;
+  background-color: white;
+  opacity: 0.85;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
   -webkit-transform: translate(200px, -9px);
@@ -949,11 +943,6 @@ header {
   color: white;
 }
 
-.sold__Section--grab--three:hover {
-  -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
 .sold__Section--grab--three .top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -972,9 +961,11 @@ header {
 }
 
 .sold__Section--grab--three .top .valo {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #2d3436;
-  padding-top: 4px;
+  padding-top: 22px;
+  font-weight: 300;
+  text-align: center;
 }
 
 .sold__Section--grab--three .top .price {
@@ -1049,8 +1040,8 @@ header {
   left: 0;
   width: 110%;
   height: 100%;
-  background-color: #2d3436;
-  opacity: 0.9;
+  background-color: white;
+  opacity: 0.85;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
   -webkit-transform: translate(200px, -9px);
@@ -1093,11 +1084,6 @@ header {
   z-index: 1;
 }
 
-.sold__Section--grab--four:hover {
-  -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
 .sold__Section--grab--four .top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1116,9 +1102,11 @@ header {
 }
 
 .sold__Section--grab--four .top .valo {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #2d3436;
-  padding-top: 4px;
+  padding-top: 22px;
+  font-weight: 300;
+  text-align: center;
 }
 
 .sold__Section--grab--four .top .price {
@@ -1193,8 +1181,8 @@ header {
   left: 0;
   width: 110%;
   height: 100%;
-  background-color: #2d3436;
-  opacity: 0.9;
+  background-color: white;
+  opacity: 0.85;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
   -webkit-transform: translate(200px, -9px);
@@ -1236,11 +1224,6 @@ header {
   color: white;
 }
 
-.sold__Section--grab--five:hover {
-  -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
 .sold__Section--grab--five .top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1259,9 +1242,11 @@ header {
 }
 
 .sold__Section--grab--five .top .valo {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #2d3436;
-  padding-top: 4px;
+  padding-top: 22px;
+  font-weight: 300;
+  text-align: center;
 }
 
 .sold__Section--grab--five .top .price {
@@ -1336,8 +1321,8 @@ header {
   left: 0;
   width: 110%;
   height: 100%;
-  background-color: #2d3436;
-  opacity: 0.9;
+  background-color: white;
+  opacity: 0.85;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
   -webkit-transform: translate(200px, -9px);
@@ -1379,11 +1364,6 @@ header {
   color: white;
 }
 
-.sold__Section--grab--six:hover {
-  -webkit-box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
 .sold__Section--grab--six .top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1402,9 +1382,11 @@ header {
 }
 
 .sold__Section--grab--six .top .valo {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #2d3436;
-  padding-top: 4px;
+  padding-top: 22px;
+  font-weight: 300;
+  text-align: center;
 }
 
 .sold__Section--grab--six .top .price {
@@ -1479,8 +1461,8 @@ header {
   left: 0;
   width: 110%;
   height: 100%;
-  background-color: #2d3436;
-  opacity: 0.9;
+  background-color: white;
+  opacity: 0.85;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
   -webkit-transform: translate(200px, -9px);

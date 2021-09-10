@@ -418,9 +418,7 @@ main{
                           color: white;
             }
        
-            &:hover{
-                box-shadow: 10px 0px 10px rgba($color: #000000, $alpha: .2);
-            }
+           
            
             & .top{
                 display: flex;
@@ -431,9 +429,11 @@ main{
                
                 
                 & .valo{
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                     color: #2d3436;
-                    padding-top: 4px;
+                   padding-top:22px;
+                   font-weight: 300;
+                   text-align: center;
                 }
                 & .price{
                     color: black;
@@ -499,8 +499,8 @@ main{
           left: 0;
           width: 110%;
           height: 100%;
-          background-color: #2d3436;
-          opacity: 0.9;
+          background-color: white;
+          opacity: 0.85;
           transition: all 0.25s;
           transform: translate(200px, -9px) ; 
           z-index: 2;
@@ -524,9 +524,7 @@ main{
             transition: all .5s;
             
             
-            &:hover{
-                box-shadow: 10px 0px 10px rgba($color: #000000, $alpha: .2);
-            }
+           
             & .top{
                 display: flex;
                 flex-direction: column;
@@ -534,9 +532,11 @@ main{
                 justify-content: center;
                 padding-top: 1rem;
                 & .valo{
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                     color: #2d3436;
-                    padding-top: 4px;
+                   padding-top:22px;
+                   font-weight: 300;
+                   text-align: center;
                 }
                 & .price{
                     color: black;
@@ -600,8 +600,8 @@ main{
           left: 0;
           width: 110%;
           height: 100%;
-          background-color: #2d3436;
-          opacity: 0.9;
+          background-color: white;
+          opacity: 0.85;
           transition: all 0.25s;
           transform: translate(200px, -9px) ; 
             }
@@ -635,9 +635,7 @@ main{
                           border-radius: 3px;
                           color: white;
             }
-            &:hover{
-                box-shadow: 10px 0px 10px rgba($color: #000000, $alpha: .2);
-            }
+           
             & .top{
                 display: flex;
                 flex-direction: column;
@@ -645,9 +643,11 @@ main{
                 justify-content: center;
                 padding-top: 1rem;
                 & .valo{
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                     color: #2d3436;
-                    padding-top: 4px;
+                   padding-top:22px;
+                   font-weight: 300;
+                   text-align: center;
                 }
                 & .price{
                     color: black;
@@ -713,8 +713,8 @@ main{
           left: 0;
           width: 110%;
           height: 100%;
-          background-color: #2d3436;
-          opacity: 0.9;
+          background-color: white;
+          opacity: 0.85;
           transition: all 0.25s;
           transform: translate(200px, -9px) ; 
           z-index: 2;
@@ -750,9 +750,7 @@ main{
                           color: white;
                           z-index: 1;
             }
-            &:hover{
-                box-shadow: 10px 0px 10px rgba($color: #000000, $alpha: .2);
-            }
+          
             & .top{
                 display: flex;
                 flex-direction: column;
@@ -760,9 +758,11 @@ main{
                 justify-content: center;
                 padding-top: 1rem;
                 & .valo{
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                     color: #2d3436;
-                    padding-top: 4px;
+                   padding-top:22px;
+                   font-weight: 300;
+                   text-align: center;
                 }
                 & .price{
                     color: black;
@@ -827,8 +827,8 @@ main{
           left: 0;
           width: 110%;
           height: 100%;
-          background-color: #2d3436;
-          opacity: 0.9;
+          background-color: white;
+          opacity: 0.85;
           transition: all 0.25s;
           transform: translate(200px, -9px) ; 
           z-index: 2;
@@ -862,9 +862,7 @@ main{
                           border-radius: 3px;
                           color: white;
             }
-            &:hover{
-                box-shadow: 10px 0px 10px rgba($color: #000000, $alpha: .2);
-            }
+          
             & .top{
                 display: flex;
                 flex-direction: column;
@@ -872,9 +870,11 @@ main{
                 justify-content: center;
                 padding-top: 1rem;
                 & .valo{
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                     color: #2d3436;
-                    padding-top: 4px;
+                   padding-top:22px;
+                   font-weight: 300;
+                   text-align: center;
                 }
                 & .price{
                     color: black;
@@ -938,8 +938,8 @@ z-index: 3;
           left: 0;
           width: 110%;
           height: 100%;
-          background-color: #2d3436;
-          opacity: 0.9;
+          background-color: white;
+          opacity: 0.85;
           transition: all 0.25s;
           transform: translate(200px, -9px) ; 
           z-index: 2;
@@ -973,9 +973,7 @@ z-index: 3;
                           border-radius: 3px;
                           color: white;
             }
-            &:hover{
-                box-shadow: 10px 0px 10px rgba($color: #000000, $alpha: .2);
-            }
+          
             & .top{
                 display: flex;
                 flex-direction: column;
@@ -983,9 +981,11 @@ z-index: 3;
                 justify-content: center;
                 padding-top: 1rem;
                 & .valo{
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                     color: #2d3436;
-                    padding-top: 4px;
+                   padding-top:22px;
+                   font-weight: 300;
+                   text-align: center;
                 }
                 & .price{
                     color: black;
@@ -1049,8 +1049,8 @@ z-index: 3;
           left: 0;
           width: 110%;
           height: 100%;
-          background-color: #2d3436;
-          opacity: 0.9;
+          background-color: white;
+          opacity: 0.85;
           transition: all 0.25s;
           transform: translate(200px, -9px) ; 
           z-index: 2;
@@ -1505,9 +1505,7 @@ z-index: 3;
                  }
            
        
-            &:hover{
-                box-shadow: 10px 0px 10px rgba($color: #000000, $alpha: .2);
-            }
+          
            
             & .top{
                 display: flex;
@@ -1518,9 +1516,11 @@ z-index: 3;
                
                 
                 & .valo{
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                     color: #2d3436;
-                    padding-top: 4px;
+                   padding-top:22px;
+                   font-weight: 300;
+                   text-align: center;
                 }
                 & .price{
                     color: black;
@@ -1586,8 +1586,8 @@ z-index: 3;
           left: 0;
           width: 110%;
           height: 100%;
-          background-color: #2d3436;
-          opacity: 0.9;
+          background-color: white;
+          opacity: 0.85;
           transition: all 0.25s;
           transform: translate(200px, -9px) ; 
           z-index: 2;
@@ -1625,9 +1625,7 @@ z-index: 3;
                 }
              }
             
-            &:hover{
-                box-shadow: 10px 0px 10px rgba($color: #000000, $alpha: .2);
-            }
+           
             & .top{
                 display: flex;
                 flex-direction: column;
@@ -1635,9 +1633,11 @@ z-index: 3;
                 justify-content: center;
                 padding-top: 1rem;
                 & .valo{
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                     color: #2d3436;
-                    padding-top: 4px;
+                   padding-top:22px;
+                   font-weight: 300;
+                   text-align: center;
                 }
                 & .price{
                     color: black;
@@ -1702,8 +1702,8 @@ z-index: 3;
           left: 0;
           width: 110%;
           height: 100%;
-          background-color: #2d3436;
-          opacity: 0.9;
+          background-color: white;
+          opacity: 0.85;
           transition: all 0.25s;
           transform: translate(200px, -9px) ; 
           z-index: 2;
@@ -1740,9 +1740,7 @@ z-index: 3;
                           
                 }
              }
-            &:hover{
-                box-shadow: 10px 0px 10px rgba($color: #000000, $alpha: .2);
-            }
+           
             & .top{
                 display: flex;
                 flex-direction: column;
@@ -1750,9 +1748,11 @@ z-index: 3;
                 justify-content: center;
                 padding-top: 1rem;
                 & .valo{
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                     color: #2d3436;
-                    padding-top: 4px;
+                   padding-top:22px;
+                   font-weight: 300;
+                   text-align: center;
                 }
                 & .price{
                     color: black;
@@ -1818,8 +1818,8 @@ z-index: 3;
           left: 0;
           width: 110%;
           height: 100%;
-          background-color: #2d3436;
-          opacity: 0.9;
+          background-color: white;
+          opacity: 0.85;
           transition: all 0.25s;
           transform: translate(200px, -9px) ; 
           z-index: 2;
@@ -1855,9 +1855,7 @@ z-index: 3;
                 }
              }
           
-            &:hover{
-                box-shadow: 10px 0px 10px rgba($color: #000000, $alpha: .2);
-            }
+           
             & .top{
                 display: flex;
                 flex-direction: column;
@@ -1865,9 +1863,11 @@ z-index: 3;
                 justify-content: center;
                 padding-top: 1rem;
                 & .valo{
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                     color: #2d3436;
-                    padding-top: 4px;
+                   padding-top:22px;
+                   font-weight: 300;
+                   text-align: center;
                 }
                 & .price{
                     color: black;
@@ -1932,8 +1932,8 @@ z-index: 3;
           left: 0;
           width: 110%;
           height: 100%;
-          background-color: #2d3436;
-          opacity: 0.9;
+          background-color: white;
+          opacity: 0.85;
           transition: all 0.25s;
           transform: translate(200px, -9px) ; 
           z-index: 2;
@@ -1968,9 +1968,7 @@ z-index: 3;
                           
                 }
              }
-            &:hover{
-                box-shadow: 10px 0px 10px rgba($color: #000000, $alpha: .2);
-            }
+           
             & .top{
                 display: flex;
                 flex-direction: column;
@@ -1978,9 +1976,11 @@ z-index: 3;
                 justify-content: center;
                 padding-top: 1rem;
                 & .valo{
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                     color: #2d3436;
-                    padding-top: 4px;
+                   padding-top:22px;
+                   font-weight: 300;
+                   text-align: center;
                 }
                 & .price{
                     color: black;
@@ -2044,8 +2044,8 @@ z-index: 3;
           left: 0;
           width: 110%;
           height: 100%;
-          background-color: #2d3436;
-          opacity: 0.9;
+          background-color: white;
+          opacity: 0.85;
           transition: all 0.25s;
           transform: translate(200px, -9px) ; 
           z-index: 2;
@@ -2080,9 +2080,7 @@ z-index: 3;
                           
                 }
              }
-            &:hover{
-                box-shadow: 10px 0px 10px rgba($color: #000000, $alpha: .2);
-            }
+            
             & .top{
                 display: flex;
                 flex-direction: column;
@@ -2090,9 +2088,11 @@ z-index: 3;
                 justify-content: center;
                 padding-top: 1rem;
                 & .valo{
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                     color: #2d3436;
-                    padding-top: 4px;
+                   padding-top:22px;
+                   font-weight: 300;
+                   text-align: center;
                 }
                 & .price{
                     color: black;
@@ -2156,8 +2156,8 @@ z-index: 3;
           left: 0;
           width: 110%;
           height: 100%;
-          background-color: #2d3436;
-          opacity: 0.9;
+          background-color: white;
+          opacity: 0.85;
           transition: all 0.25s;
           transform: translate(200px, -9px) ; 
           z-index: 2;
