@@ -134,7 +134,7 @@ header {
 }
 
 .main__header--grab--one .top .cart i {
-  font-size: 37px;
+  font-size: 27px;
   cursor: pointer;
   color: #333;
 }
@@ -142,7 +142,7 @@ header {
 .main__header--grab--one .top .cart a {
   margin-left: 1.5rem;
   text-decoration: none;
-  padding: 9px 23px;
+  padding: 6px 23px;
   border: .5px solid #777;
   font-size: 1.5rem;
   border-radius: 3px;
@@ -160,7 +160,169 @@ header {
 }
 
 .main__header--grab--one .top .cart .sign-in {
-  margin-top: 22px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.main__header--grab--one .top .cart .sign-in::after {
+  content: "";
+  position: absolute;
+  top: 27px;
+  left: 42px;
+  width: 43px;
+  height: 30px;
+  -webkit-filter: drop-shadow(rgba(65, 64, 64, 0.3) 0 2px 10px);
+  filter: drop-shadow(rgba(65, 64, 64, 0.3) 0 2px 10px);
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background-color: gray;
+  opacity: 0;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+}
+
+.main__header--grab--one .top .cart .sign-in:hover::after {
+  opacity: 1;
+}
+
+.user__area {
+  height: 335px;
+  width: 270px;
+  background: #fff;
+  position: absolute;
+  -webkit-filter: drop-shadow(rgba(65, 64, 64, 0.3) 0 2px 10px);
+          filter: drop-shadow(rgba(65, 64, 64, 0.3) 0 2px 10px);
+  padding: 20px;
+  right: -25px;
+  top: 140%;
+  border-radius: 3px;
+  display: none;
+  z-index: 3050;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+}
+
+.user__area .new__User {
+  text-align: start;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.user__area .Sing__up {
+  font-size: 1.5rem;
+  color: inherit;
+  font-size: 300;
+  text-align: start;
+}
+
+.user__area .login__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5px;
+}
+
+.user__area .login__icon .facebook {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0px 0px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 45%;
+  height: 34px;
+  border-radius: 3px;
+  background-color: #087AEA;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.user__area .login__icon .facebook .rkoto {
+  font-size: 2rem;
+  color: white;
+  padding-left: 5px;
+  text-align: start;
+}
+
+.user__area .login__icon .facebook p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.user__area .login__icon .google {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  background-color: tomato;
+  width: 45%;
+  width: 45%;
+  height: 34px;
+  border-radius: 3px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  cursor: pointer;
+}
+
+.user__area .login__icon .google .rkoto {
+  font-size: 2rem;
+  color: white;
+  padding-left: 5px;
+  text-align: start;
+}
+
+.user__area .login__icon .google p {
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 5px;
+}
+
+.user__area .Account {
+  margin-top: 1rem;
+  font-weight: 700;
+  text-align: start;
+}
+
+.user__area .input__fild input {
+  width: 100%;
+  padding: 5px 0px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border: none;
+  border-bottom: .5px solid #777;
+}
+
+.user__area .input__fild input:focus {
+  border-bottom: .5px solid #3ed303;
+  outline: none;
+}
+
+.user__area small {
+  display: block;
+  text-align: start;
+  font-size: 1.6rem;
+  color: #087AEA;
+}
+
+.user__area button {
+  width: 100%;
+  padding: 6px 0px;
+  margin-top: 1rem;
+  border: none;
+  background-color: #3ed303;
+  color: white;
+  font-size: 1.6rem;
+  border: 3px;
+  cursor: pointer;
 }
 
 .middle {
@@ -201,11 +363,12 @@ header {
 .middle .another a {
   text-decoration: none;
   padding: 2px 13px;
-  font-size: 19px;
+  font-size: 1.8rem;
   color: inherit;
   position: relative;
   -webkit-transition: all .5s;
   transition: all .5s;
+  font-weight: 300;
 }
 
 .middle .another a:hover {
@@ -464,12 +627,12 @@ main {
   position: absolute;
   top: 10%;
   left: 0;
-  width: 71px;
-  height: 40px;
+  width: 61px;
+  height: 30px;
   background-color: #0397d3;
   z-index: 1;
   /* padding: 2px 2px; */
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 3px;
   color: white;
 }
@@ -726,12 +889,12 @@ main {
   position: absolute;
   top: 0%;
   left: 0;
-  width: 71px;
-  height: 40px;
+  width: 61px;
+  height: 30px;
   background-color: #0397d3;
   z-index: 1;
   /* padding: 2px 2px; */
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 3px;
   color: white;
 }
@@ -866,12 +1029,12 @@ main {
   position: absolute;
   top: 0%;
   left: 0;
-  width: 71px;
-  height: 40px;
+  width: 61px;
+  height: 30px;
   background-color: #95d303;
   z-index: 1;
   /* padding: 2px 2px; */
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 3px;
   color: white;
   z-index: 1;
@@ -1007,12 +1170,12 @@ main {
   position: absolute;
   top: 0%;
   left: 0;
-  width: 71px;
-  height: 40px;
+  width: 61px;
+  height: 30px;
   background-color: #0397d3;
   z-index: 1;
   /* padding: 2px 2px; */
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 3px;
   color: white;
 }
@@ -1147,12 +1310,12 @@ main {
   position: absolute;
   top: 0%;
   left: 0;
-  width: 71px;
-  height: 40px;
+  width: 61px;
+  height: 30px;
   background-color: #3ed303;
   z-index: 1;
   /* padding: 2px 2px; */
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 3px;
   color: white;
 }
@@ -3492,5 +3655,9 @@ main {
   left: 95%;
   font-size: 30px;
   text-decoration: none;
+}
+
+.sign-in:hover .user__area {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
